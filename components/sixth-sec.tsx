@@ -39,7 +39,7 @@ export default function Sixth_sec() {
               </div>
             </div>
             <div className={styles.news_list_item_body__5ME3g}>
-              <h5>The Future of Fashion and AI at Glossy Ecommerce Summit</h5>
+              <h5>The Future of Fashion and AI at Glossy's Ecommerce Summit</h5>
               <span className={styles.news_list_item_date__QR63M}>
                 <b>Press</b> 6.13.24
               </span>
@@ -73,7 +73,7 @@ export default function Sixth_sec() {
               </div>
             </div>
             <div className={styles.news_list_item_body__5ME3g}>
-              <h5>Retail new playground: where physical meets digital</h5>
+              <h5>Retail's new playground: where physical meets digital</h5>
               <span className={styles.news_list_item_date__QR63M}>
                 <b>Press</b> 6.3.24
               </span>
