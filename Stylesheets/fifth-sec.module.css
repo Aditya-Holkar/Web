@@ -21,6 +21,7 @@
     justify-content: space-between;
   }
 }
+
 .home_spotlight_col__YN9bv {
   flex: 0 0 100%;
 }
@@ -50,6 +51,7 @@
     margin-top: 0;
   }
 }
+
 .asset_video_asset__SxT4s {
   position: relative;
   overflow: hidden;
@@ -62,7 +64,7 @@
   pointer-events: none;
 }
 .asset_video_asset__SxT4s video {
-  position: relative;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;

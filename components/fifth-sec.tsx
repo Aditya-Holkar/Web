@@ -5,14 +5,14 @@ export default function Fifth_sec() {
   return (
     <section
       className={styles.home_spotlight_container__w673I}
-      //   style={{
-      //     visibility: "hidden",
-      //     transform: "matrix(1, 0, 0, 1, 0, -4005)",
-      //   }}
+      // style={{
+      //   visibility: "visible",
+      //   transform: "matrix(1, 0, 0, 1, 0, -2856)",
+      // }}
     >
       <div className={styles.home_spotlight_row__6fm_G}>
         <div className={styles.home_spotlight_col__YN9bv}>
-          <div className={`${styles.asset_video_asset__SxT4s} asset`}>
+          <div className={styles.asset_video_asset__SxT4s}>
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="866px"
@@ -31,15 +31,15 @@ export default function Fifth_sec() {
           <div
             className={styles.home_spotlight_sticky__BmQSw}
             data-sticky="true"
-            // style={{ transform: "matrix(1, 0, 0, 1, 0, 272)" }}
-            data-adjustment="403"
+            // style={{ transform: "matrix(1, 0, 0, 1, 0, 122)" }}
+            data-adjustment="0"
           >
             <q>BASIC/DEPT® helps brands ● connect w/ culture</q>
             <span className={styles.home_spotlight_label__5uJTZ}>
-              Adweek <strong>Agency Spotlight</strong>
+              Adweek<strong>Agency Spotlight</strong>
               <p>
                 <a
-                  className={styles.button_pill_container__aFzFU}
+                  className={buttonstyles.button_pill_container__aFzFU}
                   href="/about"
                 >
                   About Us
