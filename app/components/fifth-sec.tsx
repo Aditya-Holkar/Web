@@ -9,12 +9,12 @@ export default function Fifth_sec() {
       <div className={styles.home_spotlight_row__6fm_G}>
         <div className={styles.home_spotlight_col__YN9bv}>
           <div className={videostyles.asset_video_asset__SxT4s}>
-            {/* <svg
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               width="866px"
               height="1214px"
               viewBox="0 0 866 1214"
-            ></svg> */}
+            ></svg>
             <video
               preload="metadata"
               loop

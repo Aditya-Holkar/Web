@@ -163,6 +163,87 @@
   background-color: currentcolor;
 }
 
+.carousel_container___XVuJ {
+  position: relative;
+  left: calc(var(--grid-padding) * -1);
+  width: calc(100% + var(--grid-padding) * 2);
+  cursor: pointer;
+  overflow: auto !important;
+}
+.carousel_container___XVuJ[data-show-cursor="medium"] {
+  cursor: unset;
+}
+.carousel_container___XVuJ[data-show-cursor="medium"] .carousel_cursor__uEXLJ {
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  .carousel_container___XVuJ[data-show-cursor="medium"] {
+    cursor: pointer;
+  }
+  .carousel_container___XVuJ[data-show-cursor="medium"]
+    .carousel_cursor__uEXLJ {
+    display: block;
+  }
+}
+.carousel_container___XVuJ[data-show-cursor="large"] {
+  cursor: unset;
+}
+.carousel_container___XVuJ[data-show-cursor="large"] .carousel_cursor__uEXLJ {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .carousel_container___XVuJ[data-show-cursor="large"] {
+    cursor: pointer;
+  }
+  .carousel_container___XVuJ[data-show-cursor="large"] .carousel_cursor__uEXLJ {
+    display: block;
+  }
+}
+
+.carousel_stage__3jWcS {
+  position: relative;
+  overflow: auto !important;
+  padding-left: var(--grid-padding);
+  /* -webkit-overflow-scrolling: touch; */
+  /* -ms-overflow-style: none; */
+  /* scrollbar-width: none; */
+}
+.carousel_stage__3jWcS::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel_progress__xZlwe {
+  position: relative;
+  height: 0.2rem;
+  margin: 9rem var(--grid-padding) 0;
+}
+@media only screen and (min-width: 1024px) {
+  .carousel_progress__xZlwe {
+    margin: 11rem var(--grid-padding) 0;
+  }
+}
+.carousel_progress__xZlwe:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: currentcolor;
+  content: "";
+  opacity: 0.25;
+}
+
+.carousel_progress_bar__VCzY_ {
+  position: absolute;
+  z-index: var(--bd-layout-z-index-z-1);
+  top: 0;
+  left: 0;
+  display: block;
+  width: 40rem;
+  height: 0.2rem;
+  background-color: currentcolor;
+}
+
 .meta_bar_alpha_container__UwbZI .row {
   margin-top: 2rem;
 }
