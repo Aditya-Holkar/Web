@@ -1,5 +1,6 @@
 import styles from "@/Stylesheets/sixth-sec.module.css";
 import buttonstyles from "@/Stylesheets/button.module.css";
+import imagestyles from "@/Stylesheets/image-asset.module.css";
 
 export default function Sixth_sec() {
   return (
@@ -22,7 +23,7 @@ export default function Sixth_sec() {
         <li className={styles.news_list_item_container__wpXqf}>
           <a href="/blog/the-future-of-fashion-and-ai-at-glossys-ecommerce-summit">
             <div className={styles.news_list_item_asset__v3xja}>
-              <div className={styles.asset_image_asset__HB8_6}>
+              <div className={imagestyles.asset_image_asset__HB8_6}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 2000 1468"
@@ -58,7 +59,7 @@ export default function Sixth_sec() {
         <li className={styles.news_list_item_container__wpXqf}>
           <a href="/thinking/retails-new-playground-where-physical-meets-digital">
             <div className={styles.news_list_item_asset__v3xja}>
-              <div className={styles.asset_image_asset__HB8_6}>
+              <div className={imagestyles.asset_image_asset__HB8_6}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1107 734"
@@ -92,7 +93,7 @@ export default function Sixth_sec() {
         <li className={styles.news_list_item_container__wpXqf}>
           <a href="/thinking/gen-alpha-the-beta-test-for-how-brands-can-reach-a-new-generation">
             <div className={styles.news_list_item_asset__v3xja}>
-              <div className={styles.asset_image_asset__HB8_6}>
+              <div className={imagestyles.asset_image_asset__HB8_6}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1000 734"
@@ -129,7 +130,7 @@ export default function Sixth_sec() {
         <li className={styles.news_list_item_container__wpXqf}>
           <a href="/blog/new-projects-on-the-podium-for-the-28th-webby-awards">
             <div className={styles.news_list_item_asset__v3xja}>
-              <div className={styles.asset_image_asset__HB8_6}>
+              <div className={imagestyles.asset_image_asset__HB8_6}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 870 544"
@@ -163,7 +164,7 @@ export default function Sixth_sec() {
         <li className={styles.news_list_item_container__wpXqf}>
           <a href="/thinking/what-sofia-coppola-can-teach-us-about-shifting-culture">
             <div className={styles.news_list_item_asset__v3xja}>
-              <div className={styles.asset_image_asset__HB8_6}>
+              <div className={imagestyles.asset_image_asset__HB8_6}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1000 734"

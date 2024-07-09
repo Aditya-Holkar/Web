@@ -1,18 +1,14 @@
 import styles from "@/Stylesheets/fifth-sec.module.css";
 import buttonstyles from "@/Stylesheets/button.module.css";
+import videostyles from "@/Stylesheets/video-asset.module.css";
+// import imagestyles from "@/Stylesheets/image-asset.module.css";
 
 export default function Fifth_sec() {
   return (
-    <section
-      className={styles.home_spotlight_container__w673I}
-      // style={{
-      //   visibility: "visible",
-      //   transform: "matrix(1, 0, 0, 1, 0, -2856)",
-      // }}
-    >
+    <section className={styles.home_spotlight_container__w673I}>
       <div className={styles.home_spotlight_row__6fm_G}>
         <div className={styles.home_spotlight_col__YN9bv}>
-          <div className={styles.asset_video_asset__SxT4s}>
+          <div className={videostyles.asset_video_asset__SxT4s}>
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="866px"

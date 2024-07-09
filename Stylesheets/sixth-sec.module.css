@@ -174,34 +174,6 @@
   }
 }
 
-.asset_image_asset__HB8_6 {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-.asset_image_asset__HB8_6 svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  pointer-events: none;
-}
-.asset_image_asset__HB8_6 img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.asset_image_asset__HB8_6 figcaption {
-  margin-top: 1.5rem;
-  font-size: var(--font-size-small);
-  line-height: 1.2;
-}
-.asset_image_asset__HB8_6 figcaption:before {
-  margin-right: 0.35em;
-  content: "●";
-}
-
 .news_list_item_arrow__bn3MZ {
   position: absolute;
   right: 0;

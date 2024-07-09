@@ -1,4 +1,4 @@
-import styles from "../Stylesheets/second-sec.module.css";
+import styles from "@/Stylesheets/second-sec.module.css";
 import buttonstyles from "@/Stylesheets/button.module.css";
 
 export default function Second_sec() {

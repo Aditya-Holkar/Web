@@ -1,4 +1,4 @@
-import styles from "../Stylesheets/first-sec.module.css";
+import styles from "@/Stylesheets/first-sec.module.css";
 
 export default function First_sec() {
   return (

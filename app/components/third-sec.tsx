@@ -1,4 +1,6 @@
-import styles from "../Stylesheets/third-sec.module.css"; // Adjust the path as needed
+import styles from "@/Stylesheets/third-sec.module.css"; // Adjust the path as needed
+import videostyles from "@/Stylesheets/video-asset.module.css";
+import imagestyles from "@/Stylesheets/image-asset.module.css";
 
 const CaseStudies = () => {
   return (
@@ -13,7 +15,7 @@ const CaseStudies = () => {
         <li className={styles.home_case_studies_item__bw2QJ}>
           <a href="/case-studies/patagonia-ecommerce-website">
             <div className={styles.home_case_studies_item_asset__gik_x}>
-              <div className={`${styles.asset_image_asset__HB8_6} asset`}>
+              <div className={`${imagestyles.asset_image_asset__HB8_6} asset`}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 720 900"
@@ -42,7 +44,7 @@ const CaseStudies = () => {
         <li className={styles.home_case_studies_item__bw2QJ}>
           <a href="/case-studies/wilson">
             <div className={styles.home_case_studies_item_asset__gik_x}>
-              <div className={`${styles.asset_image_asset__HB8_6} asset`}>
+              <div className={`${imagestyles.asset_image_asset__HB8_6} asset`}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 720 900"
@@ -71,7 +73,7 @@ const CaseStudies = () => {
         <li className={styles.home_case_studies_item__bw2QJ}>
           <a href="/case-studies/google-ecommerce-web-design">
             <div className={styles.home_case_studies_item_asset__gik_x}>
-              <div className={`${styles.asset_video_asset__SxT4s} asset`}>
+              <div className={`${videostyles.asset_video_asset__SxT4s} asset`}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="574px"

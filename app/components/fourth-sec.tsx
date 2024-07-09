@@ -1,4 +1,6 @@
 import styles from "@/Stylesheets/fourth-sec.module.css";
+// import videostyles from "@/Stylesheets/video-asset.module.css";
+import imagestyles from "@/Stylesheets/image-asset.module.css";
 
 export default function Fourth_sec() {
   return (
@@ -30,7 +32,9 @@ export default function Fourth_sec() {
           <ul>
             <li className={styles.home_clients_item__cm4_p}>
               <div className={styles.home_clients_item_logo__55MDM}>
-                <div className={`${styles.asset_image_asset__HB8_6} asset`}>
+                <div
+                  className={`${imagestyles.asset_image_asset__HB8_6} asset`}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 272 92"
@@ -57,7 +61,9 @@ export default function Fourth_sec() {
             </li>
             <li className={styles.home_clients_item__cm4_p}>
               <div className={styles.home_clients_item_logo__55MDM}>
-                <div className={`${styles.asset_image_asset__HB8_6} asset`}>
+                <div
+                  className={`${imagestyles.asset_image_asset__HB8_6} asset`}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 128 42"
@@ -84,7 +90,9 @@ export default function Fourth_sec() {
             </li>
             <li className={styles.home_clients_item__cm4_p}>
               <div className={styles.home_clients_item_logo__55MDM}>
-                <div className={`${styles.asset_image_asset__HB8_6} asset`}>
+                <div
+                  className={`${imagestyles.asset_image_asset__HB8_6} asset`}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 171 42"
@@ -111,7 +119,9 @@ export default function Fourth_sec() {
             </li>
             <li className={styles.home_clients_item__cm4_p}>
               <div className={styles.home_clients_item_logo__55MDM}>
-                <div className={`${styles.asset_image_asset__HB8_6} asset`}>
+                <div
+                  className={`${imagestyles.asset_image_asset__HB8_6} asset`}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 42 42"
@@ -137,7 +147,9 @@ export default function Fourth_sec() {
             </li>
             <li className={styles.home_clients_item__cm4_p}>
               <div className={styles.home_clients_item_logo__55MDM}>
-                <div className={`${styles.asset_image_asset__HB8_6} asset`}>
+                <div
+                  className={`${imagestyles.asset_image_asset__HB8_6} asset`}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1024 200"
@@ -164,60 +176,6 @@ export default function Fourth_sec() {
             </li>
           </ul>
         </div>
-        {/* <div className={styles.carousel_progress__xZlwe}>
-          <span
-            className={styles.carousel_progress_bar__VCzY_}
-            // style={{ width: "62.5986%" }}
-          ></span>
-        </div>
-        <div className={styles.cursor_takeover_container__K8H04}>
-          <div
-            className={styles.cursor_takeover_cursor__Y7RJr}
-            style={{ transform: "translate3d(1214.1px, 321.5px, 0px)" }}
-          >
-            <div className={styles.cursor_takeover_body__SkEsL}>
-              <div
-                className={styles.carousel_cursor__uEXLJ}
-                data-cursor="true"
-                data-active="false"
-                data-dragging="false"
-                data-is-over-anchor="false"
-              >
-                <div className={styles.carousel_cursor__carets__bD3XY}>
-                  <figure>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 5.66 11.31"
-                    >
-                      <path
-                        d="M5.66 11.31 0 5.66 5.66 0z"
-                        className={styles.caret_solid_svg_cls__cls_1}
-                      ></path>
-                    </svg>
-                  </figure>
-                  <figure>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 5.66 11.31"
-                    >
-                      <path
-                        d="M5.66 11.31 0 5.66 5.66 0z"
-                        className={styles.caret_solid_svg_cls__cls_1}
-                      ></path>
-                    </svg>
-                  </figure>
-                </div>
-                <span>
-                  <span className={styles.carousel_cursor_label__LnY_N}>
-                    <span>Drag</span>
-                    <span>Drag</span>
-                    <span>Drag</span>
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );

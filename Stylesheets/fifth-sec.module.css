@@ -52,37 +52,6 @@
   }
 }
 
-.asset_video_asset__SxT4s {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-.asset_video_asset__SxT4s svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  pointer-events: none;
-}
-.asset_video_asset__SxT4s video {
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* opacity: 0; */
-}
-.asset_video_asset__SxT4s video[data-can-play="true"] {
-  animation: fade-in var(--bd-time-transition-350) var(--ease-in-out-soft)
-    forwards;
-}
-.asset_video_asset__SxT4s figcaption {
-  margin-top: 1.5rem;
-  font-size: var(--font-size-small);
-}
-.asset_video_asset__SxT4s figcaption:before {
-  margin-right: 0.35em;
-  content: "●";
-}
 .home_spotlight_sticky__BmQSw {
   padding-bottom: 0.1rem;
 }
