@@ -12,6 +12,7 @@ import Third_2_Sec from "./components/SecondPg/Third-2-sec";
 import Fourth_2_Sec from "./components/SecondPg/Fourth-2-sec";
 import Fifth_2_sec from "./components/SecondPg/Fifth-2-sec";
 import Sixth_2_sec from "./components/SecondPg/Sixth-2-sec";
+import Seventh_2_sec from "./components/SecondPg/Seventh-2-sec";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
       <Fourth_2_Sec />
       <Fifth_2_sec />
       <Sixth_2_sec />
+      <Seventh_2_sec />
     </>
   );
 }

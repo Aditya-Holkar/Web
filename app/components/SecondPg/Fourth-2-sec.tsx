@@ -32,7 +32,10 @@ export default function Fourth_2_Sec() {
           </li>
           <li>
             <div className={styles.case_study_results_result__UbWbj}>
-              <h6>In L2 Gartner Digital IQ Index, In "Activewear" Category</h6>
+              <h6>
+                In L2 Gartner Digital IQ Index, In &quot;Activewear&quot;
+                Category
+              </h6>
               <span>#6</span>
             </div>
           </li>
