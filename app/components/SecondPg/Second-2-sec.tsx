@@ -93,7 +93,8 @@ export default function Second_2_sec() {
             <ul>
               <li>Webby Awards — Winner — Fashion & Beauty — 2021</li>
               <li>
-                Webby Awards — People's Voice Winner — Fashion & Beauty — 2021
+                Webby Awards — People&apos;s Voice Winner — Fashion & Beauty —
+                2021
               </li>
             </ul>
           </div>
