@@ -1,0 +1,148 @@
+.case_study_mobile_comp_container__2kpPx {
+  overflow: initial;
+  margin-top: var(--caseStudy-section);
+  margin-bottom: var(--caseStudy-section);
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_mobile_comp_container__2kpPx .col:first-child {
+    padding: 0
+      calc(
+        (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+          var(--grid-column-count) * 2 - 0rem
+      )
+      0
+      calc(
+        (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+          var(--grid-column-count) * 1 - var(--grid-gutter)
+      );
+  }
+}
+.case_study_mobile_comp_container__2kpPx .col + .col {
+  margin-top: 10rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .case_study_mobile_comp_container__2kpPx .col + .col {
+    margin-top: 0;
+  }
+}
+.case_study_mobile_comp_container__2kpPx
+  ul:not(.case-study-mobile-comp_is-aligned__iKnsU)
+  li:nth-child(2) {
+  margin-top: 42%;
+}
+.case_study_mobile_comp_container__2kpPx
+  ul.case-study-mobile-comp_is-aligned__iKnsU
+  li:nth-child(2) {
+  margin-top: 0;
+}
+.case_study_mobile_comp_container__2kpPx ul:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.case_study_mobile_comp_container__2kpPx li {
+  position: relative;
+  width: calc(
+    (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+      var(--grid-column-count) * 3 - var(--grid-gutter)
+  );
+  margin-top: 5rem;
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_mobile_comp_container__2kpPx li {
+    width: calc(
+      (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+        var(--grid-column-count) * 3 - var(--grid-gutter)
+    );
+    padding: 0 4%;
+  }
+}
+.case_study_mobile_comp_container__2kpPx li:first-child {
+  margin-top: 0;
+}
+.case_study_mobile_comp_container__2kpPx li:nth-child(2n) {
+  clear: right;
+  float: right;
+}
+.case_study_mobile_comp_container__2kpPx li:nth-child(odd) {
+  clear: left;
+  float: left;
+}
+.case_study_mobile_comp_container__2kpPx li > div {
+  overflow: hidden;
+}
+.case_study_mobile_comp_container__2kpPx li > div img,
+.case_study_mobile_comp_container__2kpPx li > div video {
+  padding: 0 !important;
+  border: 1vw solid;
+  border-radius: 5vw;
+  margin: 0 !important;
+  background: currentcolor;
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_mobile_comp_container__2kpPx li > div img,
+  .case_study_mobile_comp_container__2kpPx li > div video {
+    border-width: 0.5vw;
+    border-radius: 2.5vw;
+  }
+}
+.case_study_mobile_comp_container__2kpPx li > div figure,
+.case_study_mobile_comp_container__2kpPx li > div img,
+.case_study_mobile_comp_container__2kpPx li > div svg,
+.case_study_mobile_comp_container__2kpPx li > div video {
+  overflow: hidden;
+  padding: 1.15vw;
+  border-radius: 5vw;
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_mobile_comp_container__2kpPx li > div figure,
+  .case_study_mobile_comp_container__2kpPx li > div img,
+  .case_study_mobile_comp_container__2kpPx li > div svg,
+  .case_study_mobile_comp_container__2kpPx li > div video {
+    padding: 0.3vw 0.4vw 0.4vw;
+    border-radius: 2.5vw;
+  }
+}
+.case_study_mobile_comp_container__2kpPx li > div figcaption {
+  max-width: 20rem;
+  padding-left: 0.5vw;
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_mobile_comp_container__2kpPx li > div figcaption {
+    max-width: none;
+    margin-top: 3.5rem;
+  }
+  .case_study_mobile_comp_container__2kpPx[data-direction="right"] .row {
+    flex-direction: row-reverse;
+  }
+  .case_study_mobile_comp_container__2kpPx[data-direction="right"]
+    .col:first-child {
+    padding: 0
+      calc(
+        (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+          var(--grid-column-count) * 1 - var(--grid-gutter)
+      )
+      0
+      calc(
+        (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+          var(--grid-column-count) * 2 - 0rem
+      );
+  }
+}
+.case_study_mobile_comp_container__2kpPx[data-direction="right"]
+  li:nth-child(2n) {
+  clear: left;
+  float: left;
+}
+.case_study_mobile_comp_container__2kpPx[data-direction="right"]
+  li:nth-child(odd) {
+  clear: right;
+  float: right;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}

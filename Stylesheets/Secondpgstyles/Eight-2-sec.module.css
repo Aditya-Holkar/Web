@@ -1,0 +1,83 @@
+.case_study_stack_container__XtZF0 {
+  margin-top: var(--caseStudy-section);
+  margin-bottom: var(--caseStudy-section);
+}
+.case_study_stack_container__XtZF0[data-direction="alternating"]
+  > div:nth-child(odd),
+.case_study_stack_container__XtZF0[data-direction="left"] > div {
+  flex-direction: row-reverse;
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_stack_container__XtZF0 > div {
+    padding: 0
+      calc(
+        (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+          var(--grid-column-count) * 1 - 0rem
+      );
+  }
+}
+.case_study_stack_container__XtZF0 > div > div:nth-of-type(2) {
+  display: flex;
+  flex: 0 0
+    calc(
+      (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+        var(--grid-column-count) * 3 - var(--grid-gutter)
+    );
+  align-items: center;
+}
+.case_study_stack_container__XtZF0 > div > div + div {
+  margin-top: 3.5rem;
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_stack_container__XtZF0 > div > div + div {
+    margin-top: 0;
+  }
+}
+.case_study_stack_container__XtZF0 > div + div {
+  margin-top: 10rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .case_study_stack_text__Veo_h {
+    max-width: calc(
+      (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+        var(--grid-column-count) * 3 - var(--grid-gutter)
+    );
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .case_study_stack_text__Veo_h {
+    max-width: calc(
+      (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+        var(--grid-column-count) * 2 - var(--grid-gutter)
+    );
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .case_study_stack_text__Veo_h {
+    max-width: calc(
+      (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+        var(--grid-column-count) * 4 - var(--grid-gutter)
+    );
+  }
+}
+.case_study_stack_text__Veo_h h5 + p {
+  margin-top: 1.8em;
+}
+.case_study_stack_text__Veo_h p + p {
+  margin-top: 1.5em;
+}
+
+@media only screen and (min-width: 1280px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .row .col {
+    flex: 0 0
+      calc(
+        (var(--grid-width) + var(--grid-gutter) - var(--grid-padding) * 2) /
+          var(--grid-column-count) * 6 - var(--grid-gutter)
+      );
+  }
+}
